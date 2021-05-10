@@ -349,15 +349,13 @@ header {
   margin-top: 0px;
   margin-bottom: 15px;
   font-size: 48px;
-  color: #25ff9a;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #a5a5a5;
   font-weight: 700;
 }
 
 .Modern-Slider .info p {
-  font-size: 15px;
-  color: #fff;
+  font-size: 20px;
 }
 
 .Modern-Slider .info .white-button {
@@ -424,7 +422,7 @@ header {
 }
 
 .Modern-Slider .item-3 .image {
-  background-image: url(../img/me/me_slide_4.jpg);
+  background-image: url(../img/me/me_slide_2.jpg);
 }
 
 .Modern-Slider .PrevArrow:before{content:'\f104';}
