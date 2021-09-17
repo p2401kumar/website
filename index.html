@@ -5,14 +5,6 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Prateek Kumar</title>
-        
-<!-- 
-
-Sentra Template
-
-https://templatemo.com/tm-518-sentra
-
--->
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -454,13 +446,9 @@ https://templatemo.com/tm-518-sentra
 
         function hasScrolled() {
             var st = $(this).scrollTop();
-            
-            // Make sure they scroll more than delta
             if(Math.abs(lastScrollTop - st) <= delta)
                 return;
             
-            // If they scrolled down and are past the navbar, add class .nav-up.
-            // This is necessary so you never see what is "behind" the navbar.
             if (st > lastScrollTop && st > navbarHeight){
                 // Scroll Down
                 $('header').removeClass('nav-down').addClass('nav-up');
